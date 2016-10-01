@@ -61,6 +61,10 @@ Reading a string:
 (bewitch/read-string window)
 ```
 
+## Bewitched yet?
+
+If you'd like to see more, here's a fake [roguelike](https://github.com/brycecovert/bewitch-roguelike) made with bewitch.
+
 ## Todo
 
 Tons. Panels, pads, options, creating a protocol for rendering (to allow custom rendering), etc.
