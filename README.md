@@ -61,3 +61,7 @@ Reading a string:
 (bewitch/read-string window)
 ```
 
+## Todo
+
+Tons. Panels, pads, options, creating a protocol for rendering (to allow custom rendering), etc.
+
