@@ -21,7 +21,7 @@ dust get-deps
 In ```/examples/```, you'll find several example usages of bewitch.
 
 ## Rendering to the screen (Hello World)
-```
+```clojure
 (ns minimal
   (:require [bewitch.core :as bewitch]))
 
@@ -45,9 +45,19 @@ There are three ways to render to a screen or window with bewitch:
 ## Windows
 
 You can use the ```with-window``` macro to create and destroy windows.
-```
+```clojure
 (bewitch/with-window [new-window (bewitch/new-window 10 10 0 0)]
   ...)
 ```
 
+## Input
+Reading a character:
+```clojure
+(bewitch/getch)
+```
+
+Reading a string:
+```clojure
+(bewitch/read-string window)
+```
 
