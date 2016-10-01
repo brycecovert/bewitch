@@ -1,4 +1,4 @@
-(ns bewitch-natives
+(ns bewitch.natives
   (:require [pixie.ffi-infer :refer :all]
             [pixie.ffi :as ffi]
             [pixie.time :refer [time]]))

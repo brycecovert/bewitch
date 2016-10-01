@@ -1,9 +1,9 @@
-(ns bewitch
+(ns bewitch.core
   (:require [pixie.ffi-infer :refer :all]
             [pixie.ffi :as ffi]
             [pixie.string :as str]
             [pixie.time :refer [time]]
-            [bewitch-natives :as n]))
+            [bewitch.natives :as n]))
 
 
 (def color->ncurses {:black n/COLOR_BLACK 
