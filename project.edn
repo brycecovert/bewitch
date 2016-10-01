@@ -1,0 +1,4 @@
+{:name bewitch
+ :version "0.1.0-alpha"
+ :description "curses for pixie"
+ :dependencies []}
